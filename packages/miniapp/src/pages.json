@@ -1,0 +1,244 @@
+{
+    "easycom": {
+        "autoscan": true,
+        "custom": {
+            "^n-(.*)": "@/nPro/n-$1/n-$1.vue",
+            "^u-(.*)": "vk-uview-ui/components/u-$1/u-$1.vue",
+            "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+        }
+    },
+    "pages": [
+        {
+            "path": "pages/leifengmuseum/index/index",
+            "style": {
+                "navigationStyle": "custom",
+                "disableScroll": true
+            }
+        },
+        {
+            "path": "pages/leifengmuseum/newsList/index",
+            "style": {
+                "navigationStyle": "custom",
+                "disableScroll": true
+            }
+        },
+        {
+            "path": "pages/leifengmuseum/lostCenter/index",
+            "style": {
+                "navigationStyle": "custom",
+                "disableScroll": true
+            }
+        },
+        {
+            "path": "pages/leifengmuseum/lostList/index",
+            "style": {
+                "navigationStyle": "custom",
+                "disableScroll": true
+            }
+        },
+        {
+            "path": "pages/leifengmuseum/lostForm/index",
+            "style": {
+                "disableScroll": false,
+                "navigationBarTitleText": "遗失申请"
+            }
+        },
+        {
+            "path": "pages/leifengmuseum/mine/index",
+            "style": {
+                "navigationStyle": "custom",
+                "disableScroll": true
+            }
+        },
+        {
+            "path": "pages/leifengmuseum/cultureList/index",
+            "style": {
+                "navigationStyle": "custom",
+                "disableScroll": true
+            }
+        },
+        {
+            "path": "pages/common/map/index",
+            "style": {
+                "navigationBarTitleText": "导览",
+                "disableScroll": true
+            }
+        },
+        {
+            "path": "pages/common/vr/index",
+            "style": {
+                "navigationBarTitleText": "VR全景导览",
+                "disableScroll": true
+            }
+        },
+        {
+            "path": "pages/common/mine/index",
+            "style": {
+                "navigationBarTitleText": "我的",
+                "disableScroll": true
+            }
+        },
+        {
+            "path": "pages/common/scenic/index",
+            "style": {
+                "navigationStyle": "custom",
+                "navigationBarTextStyle": "white"
+            }
+        },
+        {
+            "path": "pages/common/scenicList/index",
+            "style": {
+                "navigationBarTitleText": "景点列表",
+                "disableScroll": true
+            }
+        },
+        {
+            "path": "pages/common/news/index",
+            "style": {
+                "navigationBarTitleText": "新闻",
+                "disableScroll": true
+            }
+        },
+        {
+            "path": "pages/common/webLink/index",
+            "style": {
+                "navigationBarTitleText": "外链接",
+                "disableScroll": true
+            }
+        },
+        {
+            "path": "pages/common/login/index",
+            "style": {
+                "navigationBarTitleText": "登录",
+                "disableScroll": true
+            }
+        },
+        {
+            "path": "pages/common/location/index",
+            "style": {
+                "navigationBarTitleText": "正在跳转，请稍候",
+                "disableScroll": true
+            }
+        },
+        {
+            "path": "pages/common/userInfo/index",
+            "style": {
+                "navigationBarTitleText": "个人信息",
+                "disableScroll": true
+            }
+        },
+        {
+            "path": "pages/common/culture/detail",
+            "style": {
+                "navigationBarTitleText": "景区文创详情"
+            }
+        }
+    ],
+    "globalStyle": {
+        "pageOrientation": "portrait",
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#fbfbfb",
+        "navigationBarBackgroundColor": "#FFFFFF"
+    },
+    "tabBar": {
+        "color": "#909090",
+        "selectedColor": "#8B0500",
+        "borderStyle": "white",
+        "list": [
+            {
+                "pagePath": "pages/leifengmuseum/index/index",
+                "text": "首页",
+                "iconPath": "/static/tabs/leifengmuseum/home.png",
+                "selectedIconPath": "/static/tabs/leifengmuseum/homeH.png"
+            },
+            {
+                "pagePath": "pages/common/map/index",
+                "text": "景区地图",
+                "iconPath": "/static/tabs/leifengmuseum/map.png",
+                "selectedIconPath": "/static/tabs/leifengmuseum/mapH.png"
+            },
+            {
+                "pagePath": "pages/leifengmuseum/cultureList/index",
+                "text": "文创商城",
+                "iconPath": "/static/tabs/leifengmuseum/shop.png",
+                "selectedIconPath": "/static/tabs/leifengmuseum/shopH.png"
+            },
+            {
+                "pagePath": "pages/leifengmuseum/mine/index",
+                "text": "我的",
+                "iconPath": "/static/tabs/leifengmuseum/mine.png",
+                "selectedIconPath": "/static/tabs/leifengmuseum/mineH.png"
+            }
+        ]
+    },
+    "condition": {
+        "current": 1,
+        "list": [
+            {
+                "name": "新闻页",
+                "path": "pages/common/news/index",
+                "query": "id=2"
+            },
+            {
+                "name": "地图",
+                "path": "pages/common/map/index",
+                "query": ""
+            },
+            {
+                "name": "新闻列表页",
+                "path": "pages/common/newsList/index",
+                "query": "id=21"
+            },
+            {
+                "name": "景点列表页",
+                "path": "pages/common/scenicList/index",
+                "query": ""
+            },
+            {
+                "name": "景点",
+                "path": "pages/common/scenic/index",
+                "query": ""
+            },
+            {
+                "name": "天气",
+                "path": "pages/common/weather/index",
+                "query": ""
+            },
+            {
+                "name": "相册",
+                "path": "pages/common/photos/index",
+                "query": ""
+            },
+            {
+                "name": "我的",
+                "path": "pages/common/mine/index",
+                "query": ""
+            },
+            {
+                "name": "个人信息",
+                "path": "pages/common/userInfo/index",
+                "query": ""
+            },
+            {
+                "name": "意见反馈",
+                "path": "pages/common/feedback/index",
+                "query": ""
+            },
+            {
+                "name": "景区文创",
+                "path": "pages/common/culture/index",
+                "query": ""
+            },
+            {
+                "name": "景区文创详情",
+                "path": "pages/common/culture/detail",
+                "query": "id=2"
+            },
+            {
+                "name": "登录",
+                "path": "pages/common/login/index",
+                "query": ""
+            }
+        ]
+    }
+}
